@@ -157,7 +157,7 @@ for (let i = 0; i < findUser["mytodos"].length; i++) {
   //color priority
   tododiv.innerHTML = `    <span id="taskstatus1">${
     findUser["mytodos"][i]["taskstatus"]
-  }</span>
+  }   <a href="./pages/subproject.html">Milestone</a></span>
  <div class="todoinnerdiv">
     <p id="taskname1" >${splitname.slice(0, 25)}.....</p>
     <p id="taskdetails1" class="task" >${splitdesc.slice(0, 40)}....</p>
@@ -170,9 +170,11 @@ for (let i = 0; i < findUser["mytodos"].length; i++) {
     findUser["mytodos"][i]["taskassignee"]
   }"><i class='bx bx-user-circle'></i> JP</a>
 </div> 
+
     <p id="taskpriority1" ><i class="bx bx-circle" id="bx-circle-${i}"></i> ${
     findUser["mytodos"][i]["taskpriority"]
-  }</p>
+  }  </p>
+  
  </div>`;
 
   document.querySelector("#todo-container").append(tododiv);

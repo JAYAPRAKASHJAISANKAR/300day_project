@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "300day_project",
+      "path": ".."
+    },
+    {
+      "name": "pages",
+      "path": "../../../Pictures/New folder/TodoApplication-main/pages"
+    },
+    {
+      "name": "assets",
+      "path": "../../../Pictures/New folder/TodoApplication-main/assets"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "300day_project"
+  }
+}
